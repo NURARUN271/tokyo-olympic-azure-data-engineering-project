@@ -1,0 +1,13 @@
+{
+	"name": "SqlDBtables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OnPremisesSQlServerLservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

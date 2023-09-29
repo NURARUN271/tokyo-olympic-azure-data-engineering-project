@@ -1,0 +1,16 @@
+{
+	"name": "OnPremisesSQlServerLservice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=localhost;initial catalog=AdventureWorksLT2022;user id=arunazureLogin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyZDdmZjc4NC03ODVjLTQwMWQtODYzMS05NmRjOTFhYmJhMzYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
